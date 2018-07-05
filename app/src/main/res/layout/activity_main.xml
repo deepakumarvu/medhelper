@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/capture2"
+    android:orientation="vertical"
+    tools:context="com.example.dkrocks.medhelper.MainActivity">
+
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=""
+        android:background="@drawable/capture2"
+        android:layout_weight="1"
+        android:gravity="center"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        android:layout_weight="1"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:foregroundTint="@color/colorPrimary"
+        android:layout_height="200dp"
+        android:indeterminateTint="@color/colorPrimaryDark"/>
+</LinearLayout>
